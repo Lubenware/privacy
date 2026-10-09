@@ -31,12 +31,15 @@ datos**. No hay analítica, ni publicidad, ni SDKs de terceros.
 
 1. Añadir una fila a la tabla "Esferas cubiertas" de `index.html` **en los dos
    idiomas** (español e inglés).
-2. `git add -A && git commit -m "Cubre la esfera <nombre>" && git push`
-
-Si la esfera nueva se comportara de otro modo (internet, analítica, anuncios,
-permisos sensibles o datos de salud), hay que ampliar la política **antes** de
-publicarla y actualizar su formulario de *Data safety* en Play Console: ese
-formulario es **por package name**, cada esfera tiene el suyo.
+2. Si la esfera nueva dibuja algo que las demás no dibujen (por ejemplo, datos de
+   salud o de otro tipo), añadirlo también a la sección 2 («Qué información muestra
+   la esfera») **en los dos idiomas**. Ejemplo: Atmos muestra clima y previsión, y
+   así está declarado.
+3. Si la esfera nueva se comportara de otro modo (internet, analítica, anuncios,
+   permisos sensibles o datos de salud), ampliar la política **antes** de publicarla
+   y actualizar su formulario de *Data safety* en Play Console: ese formulario es
+   **por package name**, cada esfera tiene el suyo.
+4. `git add -A && git commit -m "Cubre la esfera <nombre>" && git push`
 
 Contacto: el indicado en la sección 7 de la política.
 
