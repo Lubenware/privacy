@@ -14,6 +14,7 @@ aplicaciones se aplica (nombre y package name).
 | Esfera | Nombre del paquete |
 |---|---|
 | Runner Style | `com.lubenware.watchfaces.runnersportstyle` |
+| Atmos | `com.lubenware.watchfaces.atmos` |
 
 Todas funcionan igual: **no piden ningún permiso** y **no recogen ni transmiten
 datos**. No hay analítica, ni publicidad, ni SDKs de terceros.
